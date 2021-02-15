@@ -1,0 +1,100 @@
+body {
+    border: 1px solid transparent;
+}
+
+#mini{	
+    border: 1px solid transparent;
+	background-image: url("background.jpg");
+	background-size:cover;
+    background-position:center;
+}
+
+#result{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;	
+}
+
+#boxes{
+	margin-top:30px;
+}
+
+#boxes .box{
+	float:left;
+	width:33.3%;
+	padding:10px;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+#boxes .box img{
+	
+	width:75%;
+	height:75%;
+}
+
+
+#mini h1{
+	text-align:center;
+	font-family:cursive;
+	font-size:300%;
+	color:Purple;
+}
+
+#searchbar{
+  margin-left:130px;
+  font-size: 17px;
+  float: center;
+  width: 50%;
+}
+
+#searchbar #searchit {
+	text-align:center;
+  float: center;
+  width: 160%;
+  padding: 10px;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+#searchbar #button {
+  float: center;
+  width: 163%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#cartbt{
+	background-color:Green;
+	opacity:0.8;
+	width:100%;
+	height:60px;
+}
+
+div.g2t{
+	padding-right:1px;
+}
+#top {
+	width:5%;
+}
